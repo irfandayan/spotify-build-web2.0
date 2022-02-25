@@ -3,12 +3,7 @@ import Sidebar from '../components/Sidebar';
 
 const Home = () => {
   return (
-    <div className="">
-      <Head>
-        <title>Spotify 2.0</title>
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
-
+    <div className="h-screen overflow-hidden bg-black">
       <main>
         <Sidebar />
         {/* Center */}
